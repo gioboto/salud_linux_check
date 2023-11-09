@@ -24,7 +24,7 @@ IDusar = IDGio
 #
 
 #lista d tuplas puerto(int), descripcion , comando start
-ListPuertos = [(5432, "postgres", "comando1"), (4848, "payara", "comando2"), (5858, "glassfish", ""), (443, "nginx", "comando3")]
+ListPuertos = [(5432, "postgres", "/usr/bin/systemctl start postgresql-12.service"), (443, "Nginx", "/usr/bin/systemctl nginx.service"), (4848, "Payara", "/usr/bin/systemctl start payara.service"), (21, "vsftp", "/usr/bin/systemctl vsftpd.service"), (5858, "Glassfish", "/opt/glassfish-4.1-vacio/glassfish/glassfish/bin/asadmin start-domain domain1"]
 
 
 
